@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function ProductCard(props) {
-    const [Count, setCount] = useState(0);
+    const [Count, setCount] = useState(1);
     const onIncreaseCount = () => {
         setCount(Count + 1);
         props.onCardUpdate("INCREASE");
